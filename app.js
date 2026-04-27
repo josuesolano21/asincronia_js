@@ -13,6 +13,7 @@ async function menu() {
     console.log("8. Ejercicio Integrador 3 - Versión bloqueante");
     console.log("9. Ejercicio Integrador 3 - Versión con promesas");
     console.log("10. Ejercicio Integrador 3 - Versión con async/await");
+    console.log("11. Ejercicio Integración de servicios");
     console.log("0. Salir");    
     /* Mostrar ejercicios en consola aqui:*/
 
@@ -37,6 +38,10 @@ async function menu() {
 
         case "10":
         await ejercicios.versionAsyncAwait();
+        break;
+
+        case "11":
+        await ejercicios.integrarServicios();
         break;
 
         /* introducir siguientes ejercicios aqui con este formato:
