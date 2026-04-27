@@ -11,6 +11,7 @@ async function menu() {
     console.log("6. Ejercicio 6 - Proceso aleatorio");
     console.log("7. Ejercicio 7 - Async/Await");
     console.log("8. Ejercicio Integrador 3 - Versión bloqueante");
+    console.log("9. Ejercicio Integrador 3 - Versión con promesas");
     console.log("0. Salir");    
     /* Mostrar ejercicios en consola aqui:*/
 
@@ -27,6 +28,10 @@ async function menu() {
 
         case "8":
         await ejercicios.versionBloqueante();
+        break;
+
+        case "9":
+        await ejercicios.versionPromesas();
         break;
 
         /* introducir siguientes ejercicios aqui con este formato:
